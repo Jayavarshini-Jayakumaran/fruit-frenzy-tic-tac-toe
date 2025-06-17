@@ -1,0 +1,44 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python logs and debug files
+*.log
+
+# Compiled pygame files (if any)
+*.pyo
+*.exe
+*.dll
+*.obj
+*.so
+
+# Tkinter image caches (if generated dynamically)
+*.png~
+*.tmp
+
+# Backup files
+*.bak
+*.swp
+
+# Environment config (optional)
+.env
+
+# PyInstaller build output
+dist/
+build/
+*.spec
