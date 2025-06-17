@@ -13,7 +13,7 @@ ASSETS_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "assets"))
 # Initialize pygame mixer for sound
 pygame.mixer.init()
 
-# Load sounds using correct path
+# Load sounds using path
 click_sound = pygame.mixer.Sound(os.path.join(ASSETS_DIR, "sounds", "click.wav"))
 win_sound = pygame.mixer.Sound(os.path.join(ASSETS_DIR, "sounds", "win.wav"))
 tie_sound = pygame.mixer.Sound(os.path.join(ASSETS_DIR, "sounds", "tie.wav"))
@@ -112,7 +112,7 @@ window.iconphoto(True, icon)
 window.geometry("420x690")
 window.configure(bg="#FCE4EC")
 
-# Load background image using correct path
+# Load background image using path
 bg_image = PhotoImage(file=os.path.join(ASSETS_DIR, "images", "pixel_background.png"))
 bg_label = Label(window, image=bg_image)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -161,7 +161,7 @@ for row in range(3):
                                       command=lambda row=row, column=column: next_turn(row, column))
         buttons[row][column].grid(row=row, column=column, padx=5, pady=5)
 
-# Play startup animation
+# Play the startup animation
 window.after(500, start_animation)
 
 window.mainloop()
