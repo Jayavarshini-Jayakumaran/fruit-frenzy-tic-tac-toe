@@ -12,7 +12,7 @@ Tic Tac Toe with juicy emojis, fruity players, sound effects, and pixel-perfect 
 
 ## 🌟 Screenshots
 
-<img src="assets/screenshot.png" alt="screenshot" width="360" height="456">
+<img src="assets/screenshot.png" alt="screenshot" width="480" height="800">
 
 ## 🖥️ Tech Stack
 
