@@ -41,8 +41,6 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-✅ Make sure your assets/ folder (with sounds and images) is in the correct place relative to src/main.py.
-
 ---
 📧 **Email** — [jayavarshinijayakumaran11@gmail.com](mailto:jayavarshinijayakumaran11@gmail.com)
 
